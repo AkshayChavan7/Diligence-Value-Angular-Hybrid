@@ -1,0 +1,59 @@
+<!-- <div ng-controller="registerCtrl" class="registrationCard"></div> -->
+<div class="registrationCard">
+    <h1>Register</h1>
+    <form  id="myform" onsubmit="this.register(); return false;">
+        <table>
+            <tr>
+                <td class="td-left">
+                    Name
+                </td>
+                <td class="td-right">
+                    <input type="text" ng-model="name" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-left">Phone Number</td>
+                <td class="td-right"> 
+                    <input type="number" ng-model="phoneno" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-left">Date of Birth</td>
+                <td class="td-right">
+                    <input type="date" ng-model="dob" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-left">Username</td>
+                <td class="td-right">
+                    <input type="text" ng-model="username" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-left">Password</td>
+                <td class="td-right">
+                    <input type="password" ng-model="password" required>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td class="td-right"></td>
+                <td>
+                    <button type="button" ng-click="submit()">Register</button>
+                </td>
+            </tr> -->
+        </table>
+
+        <button type="submit">Register</button>
+        </form>
+
+        
+        <!-- Name: <input type="text" ng-model="username"><br>
+        Phone Number: <input type="tel" ng-model="phoneno"><br>
+        Date of Birth: <input type="date" ng-model="dob"><br>
+        Username: <input type="text" ng-model="username"><br>
+        Password: <input type="password" ng-model="password"><br>
+        <button type="button" ng-click="submit()">Register</button>
+     -->
+    <!-- </form> -->
+</div>
+

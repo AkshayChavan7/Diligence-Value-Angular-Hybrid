@@ -1,0 +1,35 @@
+<div class="loginCard">
+    <h1>Login</h1>
+    <form id="loginForm" onsubmit="return false;" ngNativeValidate>
+        <table>
+            <tr>
+                <td class="td-left">Username</td>
+                <td class="td-right">
+                    <input type="text" name="username" value="" [(ngModel)]="username" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-left">Date of Birth</td>
+                <td class="td-right">
+                    <input type="date" name="dob" value="" [(ngModel)]="dob" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-left">Password</td>
+                <td class="td-right">
+                    <input type="password" name="password" value="" [(ngModel)]="password" required>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td class="td-right"></td>
+                <td>
+                    <button type="button"  (click)="submit()" style="width: 100%; margin-top: 40px;">Login</button>
+                </td>
+            </tr> -->
+        </table>
+        <button type="submit">Login</button>
+        <p style="margin-top: 35px;">New user? Click <a [routerLink]="['/register']" >here</a> to register</p>
+    </form>
+        
+</div>
+
