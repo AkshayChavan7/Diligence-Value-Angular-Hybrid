@@ -1,4 +1,4 @@
-# AngularHybrid
+# DiligenceVault - AngularHybrid
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
@@ -67,11 +67,11 @@ You should not:
 
 Login-
 
-![enter image description here](https://raw.githubusercontent.com/AkshayChavan7/Diligence-Value-Angular-Hybrid/master/screenshots/Login.JPG)
+![Login](https://raw.githubusercontent.com/AkshayChavan7/Diligence-Value-Angular-Hybrid/master/screenshots/Login.JPG)
 
 Register-
 
-![enter image description here](https://raw.githubusercontent.com/AkshayChavan7/Diligence-Value-Angular-Hybrid/master/screenshots/Register.JPG)
+![Register](https://raw.githubusercontent.com/AkshayChavan7/Diligence-Value-Angular-Hybrid/master/screenshots/Register.JPG)
 
 #
 &copy; Akshay Chavan
